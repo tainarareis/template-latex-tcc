@@ -2,31 +2,31 @@
 
 (a fazer)
 
+\cite{serrano2011}
+\cite{jennings2000}
+\cite{zambonelli2001}
 
 \section{Agentes}
 
-Existem diferentes definições para agentes. Ainda assim, estas definições possuem conceitos básicos em comum como sugere \citeauthor{mcarthur2007multi} (\citeyear{mcarthur2007multi}): a noção de agente, seu ambiente e autonomia. Um agente é uma entidade de software ou hardware capaz de reagir de forma autônoma às alterações do ambiente o qual está situado \apud{wooldridge1999intelligent}{mcarthur2007multi}.
+Existem diferentes definições para agentes. Ainda assim, estas definições possuem conceitos básicos em comum como sugere \citeonline{mcarthur2007multi}: a noção de agente, seu ambiente e sua autonomia. Para o autor e para \citeonline{jennings1996}, um definição flexivel para agentes é que são entidades de software ou hardware capazes de reagir e tomar decisões de forma autônoma, com base nas alterações do ambiente o qual está situado. \citeonline{selker1994} destaca que agentes são softwares que simulam uma relação humana, realizando tarefas que poderiam ser executadas por pessoas.
 
-
-Agentes podem ser representadas por seis características ortogonais como sugere a Figura \ref{fig:hexagono}. Trabalhando juntas, tornam o agente mais robusto e suscetível a mudanças. Quanto maior for a área fechada no diagrama, mais "\textit{agent-like}" é aquele componente do sistema \cite{griss2001software}.
+Agentes podem ser representados por seis características ortogonais conforme ilustrado na Figura \ref{fig:hexagono}: adaptabilidade, autonomia, inteligência, mobilidade, persistência e cooperação. Tais características, atuando em conjunto, tornam o agente mais robusto e suscetível a mudanças \cite{griss2001software}. Quanto maior for a área fechada no diagrama, mais aquele componente do sistema pode ser classificao como agente \cite{griss2001software}.
 
 \begin{figure}[h!]
-    \includegraphics[scale=0.7]{figuras/hexagono_agente}
+    \includegraphics[scale=0.4]{figuras/hexagono_agente}
     \centering
     \caption{Dimensões do agente. Fonte: \cite{griss2001software}. Traduzido.}
     \label{fig:hexagono}
 \end{figure}
 
-Tais características são detalhadas a seguir:
 
-\begin{enumerate}
-    \item Adaptabilidade: o grau em que o comportamento de um agente pode ser alterado depois de ter sido implantado.
-    \item Autonomia: o grau em que um agente é responsável pelo seu próprio processo de controle e pode prosseguir a sua própria meta em grande parte independente de mensagens enviadas de outros agentes.
-    \item Cooperação: o grau em que os agentes se comunicam e trabalham em cooperação com outros agentes para formar sistemas multi-agentes que trabalham juntos em alguma tarefa.
-    \item Inteligência: o grau em que um agente é capaz de raciocinar sobre suas metas e seus conhecimentos.
-    \item Mobilidade: a capacidade de um agente para passar da execução de contexto para outro, seja movendo o código do agente e iniciar o agente de novo, ou serializando código e estado, permitindo que o agente continue a execução em um novo contexto, mantendo o seu estado para continuar o seu trabalho.
-    \item Persistência: trata-se do grau em que a infra-estrutura permite que os agentes conservem conhecimento e estado durante longos períodos de tempo, incluindo robustez diante de possíveis falhas em tempo de execução.
-\end{enumerate}
+Um agente pode ter seu comportamento alterado após sua implantação, o grau com que isto é possível denomina-se adaptabilidade. A autonomia de um agente, por sua vez, é definida como o grau com que é responsável pelo controle da sua própria \textit{thread} e o grau com que pode prosseguir em sua meta individual independentemente de mensagens enviadas de outros agentes \cite{griss2001software}.
+
+O agente também se caracteriza por sua capacidade de raciocinar sobre suas metas e seus conhecimentos. O grau com que o agente possui esta capacidade denomina-se por inteligência. Conjuntamene, agentes possuem mobilidade, que se trata da habilidade de um agente passar da execução de contexto para outro. Ou seja, o agente pode continuar sua execução em um novo contexto enquanto mantém seu estado.
+
+A infra-estrutura oferecida aos agentes pode permitir que conservem tanto conhecimentos adquiridos quanto seu estado durante longos períodos de tempo. Pode contriBuir também para a robustez dos agentes diante de possíveis falhas em tempo de execução. O grau com que a infra-estrutura cumpre estes critérios intitula-se persistência.
+
+Ademais, agentes possuem cooperação, que se trata do grau em que os agentes se comunicam e trabalham em cooperação uns com os outros para formar Sistemas Multiagentes.
 
 \section{Sistemas Multiagentes}
 
